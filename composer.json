@@ -1,0 +1,24 @@
+{
+  "name": "dzangalis/warehouse",
+  "autoload": {
+    "psr-4": {
+      "productManagement\\": "productManagement/",
+      "users\\": "users/",
+      "records\\": "records/"
+    }
+  },
+  "authors": [
+    {
+      "name": "dzangalis",
+      "email": "dzangalis@gmail.com"
+    }
+  ],
+  "require": {
+    "ramsey/uuid": "^4.2",
+    "nesbot/carbon": "^2.72",
+    "ext-json": "*",
+    "ext-ctype": "*",
+    "symfony/console": "^5.4",
+    "ext-readline": "*"
+  }
+}
